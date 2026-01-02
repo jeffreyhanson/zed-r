@@ -16,7 +16,7 @@ commit = "a0d3e3307489c3ca54da8c7b5b4e0c5f5fd6953a"
 
 [grammars.roxygen2]
 repository = "https://github.com/jeffreyhanson/tree-sitter-roxygen2"
-rev = "43119aefc4e224837aaddc18e9713aaa698cdec0"
+rev = "73455319cac74a4a91d1096611279cf750b6b714"
 
 [language_servers.r_language_server]
 name = "r lsp"

@@ -152,10 +152,6 @@
 ((identifier) @keyword
   (#any-of? @keyword ".romans" "SweaveSyntaxNoweb" "SweaveSyntaxLatex" "osVersion" "colorspaces" "Hershey" "blues9" "p.adjust.methods" ".ShortPrimitiveSkeletons" ".EmptyPrimitiveSkeletons" ".OldClassesList" "F" "T" ".GlobalEnv" "LETTERS" ".LC.categories" "pi" ".noGenerics" "letters" ".S3PrimitiveGenerics" ".AutoloadEnv" ".Devices" ".userHooksEnv" ".Library" ".ArgsEnv" "R.version.string" ".popath" ".C_R_getTaskCallbackNames" "version" ".F_dchdc" ".internalGenerics" ".Machine" ".knownS3Generics" "R.version" ".F_dqrqy" ".F_dqrxb" ".F_dqrcf" ".Last.value" ".F_dqrqty" ".F_dqrrsd" ".Traceback" "month.abb" ".Library.site" ".C_R_addTaskCallback" ".S3_methods_table" ".F_dqrdc2" ".leap.seconds" ".C_R_removeTaskCallback" ".Options" ".BaseNamespaceEnv" ".sys.timezone" "..deparseOpts" ".GenericArgsEnv" ".F_dtrco" ".Platform" "month.name" ".Device"))
 
-; roxygen
-((comment) @comment.doc
-    (#match? @comment.doc "^#'"))
-
 ; jupyter cell tag
 ((comment) @operator
     (#match? @operator "^#\\s?%%"))

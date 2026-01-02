@@ -1,12 +1,14 @@
 name = "roxygen2"
 grammar = "roxygen2"
+path_suffixes = ["roxygen2", "Roxygen2"]
 tab_size = 2
-autoclose_before = "$@=,}])"
+autoclose_before = "}])`"
 brackets = [
-    { start = "{", end = "}", close = true, newline = true },
-    { start = "[", end = "]", close = true, newline = true },
-    { start = "(", end = ")", close = true, newline = true },
+    { start = "{", end = "}", close = true, newline = false },
+    { start = "[", end = "]", close = true, newline = false },
+    { start = "(", end = ")", close = true, newline = false },
     { start = "\"", end = "\"", close = true, newline = false },
     { start = "'", end = "'", close = false, newline = false },
+    { start = "`", end = "`", close = false, newline = false },
 ]
-hidden = true
+# hidden = true
